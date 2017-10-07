@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3520D7181F8991DA0025610B /* TRTabViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3520D7161F8991DA0025610B /* TRTabViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3520D71C1F8991EE0025610B /* UIImage+TRStretching.m in Sources */ = {isa = PBXBuildFile; fileRef = D88E0DD817C3937E00D26892 /* UIImage+TRStretching.m */; };
+		3520D71D1F8991EE0025610B /* TRTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = D837B64717A7125B0067C93B /* TRTabView.m */; };
+		3520D71E1F8991EE0025610B /* TRTab.m in Sources */ = {isa = PBXBuildFile; fileRef = D837B65317A873E90067C93B /* TRTab.m */; };
+		3520D71F1F8991EE0025610B /* TRTabViewToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = D88E0DD417C3927B00D26892 /* TRTabViewToolbar.m */; };
+		3520D7201F8992240025610B /* addButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D837B64A17A872690067C93B /* addButton.png */; };
+		3520D7211F8992240025610B /* addButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D837B64B17A872690067C93B /* addButton@2x.png */; };
+		3520D7221F8992240025610B /* overflowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D837B64C17A8726A0067C93B /* overflowButton.png */; };
+		3520D7231F8992240025610B /* overflowButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D837B64D17A8726A0067C93B /* overflowButton@2x.png */; };
+		3520D7241F8992240025610B /* deleteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D837B65517A87DBF0067C93B /* deleteButton.png */; };
+		3520D7251F8992240025610B /* deleteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D837B65617A87DBF0067C93B /* deleteButton@2x.png */; };
+		3520D7261F8992240025610B /* trtab_background_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DBF17C3854900D26892 /* trtab_background_fill.png */; };
+		3520D7271F8992240025610B /* trtab_background_fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DC017C3854900D26892 /* trtab_background_fill@2x.png */; };
+		3520D7281F8992240025610B /* trtab_bottom_edge.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DC117C3854900D26892 /* trtab_bottom_edge.png */; };
+		3520D7291F8992240025610B /* trtab_bottom_edge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DC217C3854900D26892 /* trtab_bottom_edge@2x.png */; };
+		3520D72A1F8992240025610B /* trtab_foreground_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DC317C3854900D26892 /* trtab_foreground_fill.png */; };
+		3520D72B1F8992240025610B /* trtab_foreground_fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DC417C3854900D26892 /* trtab_foreground_fill@2x.png */; };
+		3520D72C1F8992240025610B /* trtab_top_edge.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DC517C3854900D26892 /* trtab_top_edge.png */; };
+		3520D72D1F8992240025610B /* trtab_top_edge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DC617C3854900D26892 /* trtab_top_edge@2x.png */; };
+		3520D72E1F8992240025610B /* trtab_vertical_edge.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DC717C3854900D26892 /* trtab_vertical_edge.png */; };
+		3520D72F1F8992240025610B /* trtab_vertical_edge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DC817C3854900D26892 /* trtab_vertical_edge@2x.png */; };
+		3520D7301F8992240025610B /* trtabview_background.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DDF17C3A42C00D26892 /* trtabview_background.png */; };
+		3520D7311F8992240025610B /* trtabview_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DE017C3A42C00D26892 /* trtabview_background@2x.png */; };
+		3520D7321F8992240025610B /* trtabview_bottom_edge.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DE317C3A48E00D26892 /* trtabview_bottom_edge.png */; };
+		3520D7331F8992240025610B /* trtabview_bottom_edge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88E0DE417C3A48E00D26892 /* trtabview_bottom_edge@2x.png */; };
 		544E3A5D1AB80B9C00AC3042 /* TRTabViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E3A5C1AB80B9C00AC3042 /* TRTabViewTests.m */; };
 		544E3A651AB8110400AC3042 /* TRTabViewTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544E3A641AB8110400AC3042 /* TRTabViewTestDelegate.m */; };
 		D837B60B17A711E80067C93B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D837B60A17A711E80067C93B /* UIKit.framework */; };
@@ -60,6 +85,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3520D7141F8991DA0025610B /* TRTabViewFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TRTabViewFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3520D7161F8991DA0025610B /* TRTabViewFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRTabViewFramework.h; sourceTree = "<group>"; };
+		3520D7171F8991DA0025610B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		544E3A581AB80B9C00AC3042 /* TRTabViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRTabViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		544E3A5B1AB80B9C00AC3042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		544E3A5C1AB80B9C00AC3042 /* TRTabViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRTabViewTests.m; sourceTree = "<group>"; };
@@ -118,6 +146,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3520D7101F8991DA0025610B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		544E3A551AB80B9C00AC3042 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,6 +173,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3520D7151F8991DA0025610B /* TRTabViewFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3520D7161F8991DA0025610B /* TRTabViewFramework.h */,
+				3520D7171F8991DA0025610B /* Info.plist */,
+			);
+			path = TRTabViewFramework;
+			sourceTree = "<group>";
+		};
 		544E3A591AB80B9C00AC3042 /* TRTabViewTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +207,7 @@
 				D837B64517A7124E0067C93B /* TRTabView */,
 				D837B61017A711E80067C93B /* TRTabViewExample */,
 				544E3A591AB80B9C00AC3042 /* TRTabViewTests */,
+				3520D7151F8991DA0025610B /* TRTabViewFramework */,
 				D837B60917A711E80067C93B /* Frameworks */,
 				D837B60817A711E80067C93B /* Products */,
 			);
@@ -173,6 +218,7 @@
 			children = (
 				D837B60717A711E80067C93B /* TRTabViewExample.app */,
 				544E3A581AB80B9C00AC3042 /* TRTabViewTests.xctest */,
+				3520D7141F8991DA0025610B /* TRTabViewFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,7 +311,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		3520D7111F8991DA0025610B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3520D7181F8991DA0025610B /* TRTabViewFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		3520D7131F8991DA0025610B /* TRTabViewFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3520D71B1F8991DA0025610B /* Build configuration list for PBXNativeTarget "TRTabViewFramework" */;
+			buildPhases = (
+				3520D70F1F8991DA0025610B /* Sources */,
+				3520D7101F8991DA0025610B /* Frameworks */,
+				3520D7111F8991DA0025610B /* Headers */,
+				3520D7121F8991DA0025610B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRTabViewFramework;
+			productName = TRTabViewFramework;
+			productReference = 3520D7141F8991DA0025610B /* TRTabViewFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		544E3A571AB80B9C00AC3042 /* TRTabViewTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 544E3A621AB80B9C00AC3042 /* Build configuration list for PBXNativeTarget "TRTabViewTests" */;
@@ -311,6 +386,11 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Matthias Keiser";
 				TargetAttributes = {
+					3520D7131F8991DA0025610B = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = CDMJRT8WJB;
+						ProvisioningStyle = Automatic;
+					};
 					544E3A571AB80B9C00AC3042 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = D837B60617A711E80067C93B;
@@ -331,11 +411,39 @@
 			targets = (
 				D837B60617A711E80067C93B /* TRTabViewExample */,
 				544E3A571AB80B9C00AC3042 /* TRTabViewTests */,
+				3520D7131F8991DA0025610B /* TRTabViewFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3520D7121F8991DA0025610B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3520D7201F8992240025610B /* addButton.png in Resources */,
+				3520D7211F8992240025610B /* addButton@2x.png in Resources */,
+				3520D7221F8992240025610B /* overflowButton.png in Resources */,
+				3520D7231F8992240025610B /* overflowButton@2x.png in Resources */,
+				3520D7241F8992240025610B /* deleteButton.png in Resources */,
+				3520D7251F8992240025610B /* deleteButton@2x.png in Resources */,
+				3520D7261F8992240025610B /* trtab_background_fill.png in Resources */,
+				3520D7271F8992240025610B /* trtab_background_fill@2x.png in Resources */,
+				3520D7281F8992240025610B /* trtab_bottom_edge.png in Resources */,
+				3520D7291F8992240025610B /* trtab_bottom_edge@2x.png in Resources */,
+				3520D72A1F8992240025610B /* trtab_foreground_fill.png in Resources */,
+				3520D72B1F8992240025610B /* trtab_foreground_fill@2x.png in Resources */,
+				3520D72C1F8992240025610B /* trtab_top_edge.png in Resources */,
+				3520D72D1F8992240025610B /* trtab_top_edge@2x.png in Resources */,
+				3520D72E1F8992240025610B /* trtab_vertical_edge.png in Resources */,
+				3520D72F1F8992240025610B /* trtab_vertical_edge@2x.png in Resources */,
+				3520D7301F8992240025610B /* trtabview_background.png in Resources */,
+				3520D7311F8992240025610B /* trtabview_background@2x.png in Resources */,
+				3520D7321F8992240025610B /* trtabview_bottom_edge.png in Resources */,
+				3520D7331F8992240025610B /* trtabview_bottom_edge@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		544E3A561AB80B9C00AC3042 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,6 +487,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3520D70F1F8991DA0025610B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3520D71C1F8991EE0025610B /* UIImage+TRStretching.m in Sources */,
+				3520D71D1F8991EE0025610B /* TRTabView.m in Sources */,
+				3520D71E1F8991EE0025610B /* TRTab.m in Sources */,
+				3520D71F1F8991EE0025610B /* TRTabViewToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		544E3A541AB80B9C00AC3042 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,6 +553,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3520D7191F8991DA0025610B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CDMJRT8WJB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TRTabViewFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ajty.TRTabViewFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3520D71A1F8991DA0025610B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CDMJRT8WJB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TRTabViewFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ajty.TRTabViewFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		544E3A601AB80B9C00AC3042 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -614,6 +809,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3520D71B1F8991DA0025610B /* Build configuration list for PBXNativeTarget "TRTabViewFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3520D7191F8991DA0025610B /* Debug */,
+				3520D71A1F8991DA0025610B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		544E3A621AB80B9C00AC3042 /* Build configuration list for PBXNativeTarget "TRTabViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
